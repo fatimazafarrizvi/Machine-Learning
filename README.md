@@ -1,2 +1,2 @@
 # Machine-Learning
-My learning until now
+My learnings until now
