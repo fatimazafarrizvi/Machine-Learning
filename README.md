@@ -1,68 +1,63 @@
-# 🧠 Medical Cost Prediction using Linear Regression
+# 🏥 MedCost_Predictor using Linear Regression
 
-This project demonstrates how to build a **Machine Learning model from scratch** in Python to predict **medical insurance costs** based on various features such as age, BMI, number of children, smoking status, and more.
+A Python-based machine learning project to predict **medical insurance costs** using linear regression. This notebook performs exploratory data analysis, feature visualization, and regression modeling on real-world healthcare data.
 
-The focus is not just on implementation but on **understanding the mathematical intuition** behind **Linear Regression** and **Gradient Descent**, without relying on high-level machine learning libraries like scikit-learn.
+---
+
+## 📌 Project Objectives
+
+- Understand how different factors like age, BMI, and smoking habits affect medical insurance charges.
+- Visualize key relationships using interactive and static charts.
+- Implement linear regression from scratch to model healthcare cost predictions.
+- Evaluate model performance using error metrics.
 
 ---
 
 ## 📊 Dataset
 
-The dataset used in this project contains information about patients and their corresponding medical charges. Each row includes:
+The dataset (`[medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/blob/main/medical.csv)`) contains the following columns:
 
-- Age
-- Sex
-- BMI (Body Mass Index)
-- Number of children
-- Smoking status
-- Region
-- Insurance Charges
-
-📂 **Dataset link**: [medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/blob/main/medical.csv)
+- `age`: Age of the individual
+- `sex`: Gender (`male`, `female`)
+- `bmi`: Body Mass Index
+- `children`: Number of dependents
+- `smoker`: Smoking status (`yes`, `no`)
+- `region`: Residential area in the US
+- `charges`: Medical insurance cost (target variable)
 
 ---
 
-## 🚀 Key Highlights
+## 🛠️ Tools & Technologies
 
-- ✅ Implemented **Linear Regression** and **Gradient Descent** from scratch using **NumPy**
-- 🧮 Focused on **mathematical intuition** and **manual derivation** of the loss function and gradients
-- 📉 Optimized using **Mean Squared Error (MSE)** as the cost function
-- 📈 Visualized cost convergence over iterations
-- 🔄 Applied **feature scaling** and **normalization** for faster convergence
-
----
-
-## 🛠️ Technologies Used
-
-- Python 🐍
-- NumPy for numerical operations
-- Matplotlib / Seaborn for visualization
-- Pandas for data loading and preprocessing
+- Python 3
+- NumPy, Pandas
+- Matplotlib, Seaborn, Plotly
+- scikit-learn
+- Jupyter Notebook
 
 ---
 
-## 📚 Concepts & Skills Gained
+## 📈 Key Features
 
-- 🔁 **Gradient Descent Algorithm** and convergence analysis  
-- 📉 **Loss Function (MSE)** implementation  
-- 🔎 **Feature Scaling and Normalization**  
-- 📈 **Cost Function Visualization** over iterations  
-- 📊 Exploratory Data Analysis (EDA)
-
----
-
-## 🧪 How It Works
-
-1. Load and preprocess the dataset
-2. Normalize input features
-3. Initialize parameters (weights and bias)
-4. Compute predictions
-5. Calculate the cost (MSE)
-6. Update parameters using gradient descent
-7. Iterate until convergence
-8. Visualize results
+- 🔍 **Data Exploration**: Summary statistics and categorical analysis
+- 📊 **Visualizations**:
+  - Age vs Charges
+  - BMI vs Charges
+  - Smoker vs Non-Smoker cost comparison
+  - Correlation Heatmap
+- 📐 **Linear Regression Model**:
+  - Implementation (without and with using `LinearRegression` from sklearn seperately)
+  - Cost vs Age prediction for non-smokers
+  - Model performance evaluation using MSE
 
 ---
+- 🧮 **RMSE Evaluation**:
+  - **Non-Smokers**: RMSE =  4662.505766636395
+  - **Smokers**: RMSE = 24338.502872599212
+  - Calculated using `LinearRegression` 
+  
+---
+
 
 ## 👩‍💻 Author
 
