@@ -15,7 +15,7 @@ A Python-based machine learning project to predict **medical insurance costs** u
 
 ## 📊 Dataset
 
-The dataset (`[medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/blob/main/medical.csv)`) contains the following columns:
+The dataset [medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/blob/main/medical.csv) contains the following columns:
 
 - `age`: Age of the individual
 - `sex`: Gender (`male`, `female`)
