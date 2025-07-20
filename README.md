@@ -43,8 +43,11 @@ The dataset [medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/b
 - 📊 **Visualizations**:
   - Age vs Charges
   - BMI vs Charges
+  - 
   - Smoker vs Non-Smoker cost comparison
   - Correlation Heatmap
+  - <img width="766" height="534" alt="image" src="https://github.com/user-attachments/assets/238d58d0-e2e8-44e9-9734-4e727b45f434" />
+
 - 📐 **Linear Regression Model**:
   - Implementation (without and with using `LinearRegression` from sklearn seperately)
   - Cost vs Age prediction for non-smokers
@@ -53,7 +56,9 @@ The dataset [medical.csv](https://github.com/fatimazafarrizvi/Machine-Learning/b
 ---
 - 🧮 **RMSE Evaluation**:
   - **Non-Smokers**: RMSE =  4662.505766636395
+  - <img width="882" height="533" alt="image" src="https://github.com/user-attachments/assets/e31cef0c-a5b0-474d-9033-d42e88e9b59b" />
   - **Smokers**: RMSE = 24338.502872599212
+  - <img width="882" height="533" alt="image" src="https://github.com/user-attachments/assets/335c4211-8385-4d96-ba72-cc27bb3762cd" />
   - Calculated using `LinearRegression` 
   
 ---
